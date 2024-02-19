@@ -10,11 +10,14 @@ section.places h1 {
 	border: #FF5A5F solid 1px;
 	border-radius: 4px;
 	display: inline-block;
+	min-height: 250px;
+	vertical-align: top;
 }
 
 article h2 {
 	font-size: 30px;
 	text-align: center;
+	margin-top: 5px;
 }
 
 footer {
@@ -64,7 +67,55 @@ div.description, div.user {
 	margin-top: 10px;
 }
 
-div.amenities {
-	margin-top: 40px;
-	color: red;
+.places article div.amenities,
+.places article div.reviews {
+	margin: 40px 0px 40px;
+	text-align: left;
+	width: 100%;
+	padding: 0px;
+}
+
+article div.amenities h2, article div.reviews h2 {
+	font-size: 16px;
+	border-bottom: #DDDDDD solid 1px;
+	text-align: left;
+}
+
+.places article div.amenities ul,
+.places article div.reviews ul {
+	list-style: none;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+.places article div.reviews ul p {
+	font-size: 12px;
+}
+
+article div.reviews ul h3 {
+	text-align: left;
+}
+
+.wifi {
+	background-image: url("../images/icon_wifi.png");
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
+
+.pet {
+	background-image: url("../images/icon_pets.png");
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
+
+.tv {
+	background-image: url("../images/icon_tv.png");
+	background-repeat: no-repeat;
+	background-size: 20px;
+}
+
+.places article .amenities ul li,
+.places article .amenities ul li {
+	padding-left: 30px;
+	line-height: 20px;
 }
