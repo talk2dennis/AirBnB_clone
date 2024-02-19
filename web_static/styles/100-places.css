@@ -63,3 +63,8 @@ div.description, div.user {
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
+
+div.amenities {
+	margin-top: 40px;
+	color: red;
+}
