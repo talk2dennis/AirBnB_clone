@@ -1,6 +1,13 @@
+div.container section.places {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 section.places h1 {
 	font-size: 30px;
 	text-align: left;
+	flex-basis: 100%;
 }
 
 .places article {
@@ -9,7 +16,6 @@ section.places h1 {
 	padding: 20px;
 	border: #FF5A5F solid 1px;
 	border-radius: 4px;
-	display: inline-block;
 	min-height: 270px;
 	vertical-align: top;
 }
